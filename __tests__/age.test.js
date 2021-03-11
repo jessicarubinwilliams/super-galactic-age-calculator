@@ -8,7 +8,7 @@ describe('Age', () => {
   });
 
   test('should create Age instance', () => {
-    expect(reusableAge).toEqual({ dob: "Sat Jul 12 1997 00:00:00 GMT-0700 (Pacific Daylight Time)", advocacy: 10, allyship: 10, contributions: 10, inquisitiveness: 10, interconnectedness: 10, joyCultivation: 10, kindness: 10, openHeartedness: 10, personalGrowth: 10, respect: 10, selfCare: 10, selfReflection: 10, sharing: 10, valuesInAction: 10 })
+    expect(reusableAge).toEqual({ dob: 868690800000, advocacy: 10, allyship: 10, contributions: 10, inquisitiveness: 10, interconnectedness: 10, joyCultivation: 10, kindness: 10, openHeartedness: 10, personalGrowth: 10, respect: 10, selfCare: 10, selfReflection: 10, sharing: 10, valuesInAction: 10 })
   });
 
 });
