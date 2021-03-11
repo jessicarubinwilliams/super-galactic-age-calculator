@@ -49,3 +49,15 @@ open-heart
 joy-cultivation
 interconnectedness
 sharing
+
+Prototypes:
+getEarthAge
+getMercuryAge
+getVenusAge
+getMarsAge
+getJupiterAge
+getEarthLifeExpectancy
+getMercuryLifeExpectancy
+getVenusLifeExpectancy
+getMarsLifeExpectancy
+getJupiterLifeExpectancy
