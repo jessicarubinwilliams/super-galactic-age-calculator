@@ -12,7 +12,7 @@ describe('Age', () => {
   });
 
   test('should calculate age on Earth', () => {
-    expect(reusableAge.getEarthAge()).toEqual((Date.now()-reusableAge.dob)/3.154e+10);
+    expect(reusableAge.getEarthAge().toFixed(2)).toEqual(((Date.now()-reusableAge.dob)/3.154e+10).toFixed(2));
   });
 
 });

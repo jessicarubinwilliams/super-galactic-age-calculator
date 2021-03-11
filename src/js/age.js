@@ -15,9 +15,9 @@ export default class Age {
     this.selfReflection = parseInt(selfReflection);
     this.sharing = parseInt(sharing);
     this.valuesInAction = parseInt(valuesInAction);
- }
+  }
 
- getEarthAge() {
-   
- }
+  getEarthAge() {
+    return (Date.now()-this.dob)/3.154e+10;
+  }
 };
