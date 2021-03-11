@@ -16,4 +16,8 @@ export default class Age {
     this.sharing = parseInt(sharing);
     this.valuesInAction = parseInt(valuesInAction);
  }
+
+ getEarthAge() {
+   
+ }
 };
