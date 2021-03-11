@@ -12,15 +12,19 @@ describe('Age', () => {
   });
 
   test('should calculate age on Earth', () => {
-    expect(reusableAge.getEarthAge()).toEqual(((Date.now()-reusableAge.dob)/3.154e+10));
+    expect(reusableAge.getEarthAge().toFixed(2)).toEqual(((Date.now()-reusableAge.dob)/3.154e+10).toFixed(2));
   });
 
   test('should calculate age on Mercury', () => {
-    expect(reusableAge.getMercuryAge()).toEqual((reusableAge.getEarthAge() * .24));
+    expect(reusableAge.getMercuryAge().toFixed(2)).toEqual((reusableAge.getEarthAge() * .24).toFixed(2));
   });
 
   test('should calculate age on Venus', () => {
-    expect(reusableAge.getVenusAge()).toEqual((reusableAge.getEarthAge() * .62));
+    expect(reusableAge.getVenusAge().toFixed(2)).toEqual((reusableAge.getEarthAge() * .62).toFixed(2));
+  });
+
+  test('should calculate age on Mars', () => {
+    expect(reusableAge.getMarsAge()).toEqual((reusableAge.getEarthAge() * 1.88));
   });
 });
 
