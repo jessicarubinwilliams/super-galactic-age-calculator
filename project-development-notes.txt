@@ -40,15 +40,15 @@ allyship
 contributions
 inquisitiveness
 interconnectedness
-joy-cultivation
+joyCultivation
 kindness
-open-heart
-personal-growth
+openHeart
+personalGrowth
 respect
-self-care
-self-reflection
+selfCare
+selfReflection
 sharing
-values-in-action
+valuesInAction
 
 Prototypes:
 getEarthAge
