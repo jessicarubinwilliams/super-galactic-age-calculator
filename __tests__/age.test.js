@@ -28,7 +28,7 @@ describe('Age', () => {
   });
 
   test('should calculate age on Jupiter', () => {
-    expect(reusableAge.getJupiterAge()).toEqual((reusableAge.getEarthAge() * 11.86));
+    expect(reusableAge.getJupiterAge().toFixed(2)).toEqual((reusableAge.getEarthAge() * 11.86).toFixed(2));
   });
 });
 
