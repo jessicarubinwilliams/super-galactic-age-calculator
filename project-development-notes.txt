@@ -35,20 +35,20 @@ Sharing
 Age object
 Properties:
 dob
-kindness
-respect
-contributions
 advocacy
 allyship
-self-reflection
-personal-growth
-self-care
+contributions
 inquisitiveness
-values-in-action
-open-heart
-joy-cultivation
 interconnectedness
+joy-cultivation
+kindness
+open-heart
+personal-growth
+respect
+self-care
+self-reflection
 sharing
+values-in-action
 
 Prototypes:
 getEarthAge
