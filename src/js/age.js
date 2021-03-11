@@ -22,6 +22,6 @@ export default class Age {
   }
 
   getMercuryAge() {
-    
+    return this.getEarthAge() * .24;
   }
 };
