@@ -31,3 +31,21 @@ Cultivating joy
 Cultivating connection
 Valuing interconnectedness
 Sharing
+
+Age object
+Properties:
+dob
+kindness
+respect
+contributions
+advocacy
+allyship
+self-reflection
+personal-growth
+self-care
+inquisitiveness
+values-in-action
+open-heart
+joy-cultivation
+interconnectedness
+sharing
