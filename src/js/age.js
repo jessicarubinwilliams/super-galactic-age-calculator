@@ -30,6 +30,6 @@ export default class Age {
   }
 
   getMarsAge() {
-    
+    return this.getEarthAge() * 1.88;
   }
 };
