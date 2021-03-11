@@ -20,4 +20,8 @@ export default class Age {
   getEarthAge() {
     return (Date.now()-this.dob)/3.154e+10;
   }
+
+  getMercuryAge() {
+    
+  }
 };

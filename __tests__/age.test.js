@@ -15,6 +15,10 @@ describe('Age', () => {
     expect(reusableAge.getEarthAge().toFixed(2)).toEqual(((Date.now()-reusableAge.dob)/3.154e+10).toFixed(2));
   });
 
+  test('should calculate age on Mercury', () => {
+    expect(reusableAge.getMercuryAge()).toEqual((reusableAge.getEarthAge() * .24));
+  });
+
 });
 
 
