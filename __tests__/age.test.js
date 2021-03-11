@@ -19,6 +19,9 @@ describe('Age', () => {
     expect(reusableAge.getMercuryAge()).toEqual((reusableAge.getEarthAge() * .24));
   });
 
+  test('should calculate age on Venus', () => {
+    expect(reusableAge.getVenusAge()).toEqual((reusableAge.getEarthAge() * .62));
+  });
 });
 
 
