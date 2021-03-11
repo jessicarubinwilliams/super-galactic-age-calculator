@@ -26,6 +26,10 @@ describe('Age', () => {
   test('should calculate age on Mars', () => {
     expect(reusableAge.getMarsAge().toFixed(2)).toEqual((reusableAge.getEarthAge() * 1.88).toFixed(2));
   });
+
+  test('should calculate age on Jupiter', () => {
+    expect(reusableAge.getJupiterAge()).toEqual((reusableAge.getEarthAge() * 11.86));
+  });
 });
 
 
