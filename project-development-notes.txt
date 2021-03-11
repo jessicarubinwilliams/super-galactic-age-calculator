@@ -1,0 +1,33 @@
+DETERMINE AGE ON EACH PLANET
+
+Conversion from Earth years
+Mercury .24
+Venus .62
+Mars 1.88
+Jupiter 11.86
+
+DETERMINE LIFE EXPECTANCY ON EACH PLANET
+(Years left or years surpassed)
+
+Steps to determine age on Earth:
+Get DOB
+create new Date object with DOB
+Subtract date from Date.now and divide by number of milliseconds in a year (3.154e+10)
+Account for leap years?
+Use math.round or leave decimals?
+
+Factors for determining life expectancy (if you live a good life, life will feel long):
+Kindness to self and others
+Respect for self and others
+Contributions to community
+Speaking up for right
+Self reflection
+Ongoing personal growth
+Self care of mind and body
+Inquisitivity
+Daily actions in line with your values
+Open Heart
+Cultivating joy
+Cultivating connection
+Valuing interconnectedness
+Sharing
