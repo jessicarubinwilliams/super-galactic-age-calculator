@@ -1,10 +1,6 @@
-## _THIS PROJECT IS AN ENVIRONMENT TEMPLATE FOR FUTURE PROJECTS_
+# _Super Galactic Age Calculator_
 
-## _This project is not in a complete or portfolio ready state, and should not be considered representational of professional work._
-
-# _Application Name_
-
-#### _Brief description of application_
+#### _A web-based application to calculate a user's age in Mercury, Venus, Mars, and Jupiter years based on their Earth date of birth._
 
 #### _By **Jessica R. Williams**_
 
@@ -22,7 +18,7 @@
 
 ## Preview <a id="preview"></a>
 
-* _Direct your browser to a [live version](jessicarubinwilliams.github.io/project/index.html) on GitHub Pages._
+* _Direct your browser to a [live version](jessicarubinwilliams.github.io/super-galactic-age-calculator/index.html) on GitHub Pages._
 
 ## Technologies Used <a id="technologies"></a>
 
@@ -57,8 +53,8 @@ _This is a detailed description of your application. Give as much detail as need
 * _Open the terminal on your local machine_
 * _If [Node.js](https://nodejs.org/en/) and [Nope Package Manager (npm)](https://www.npmjs.com/) are not installed on your local device, follow the instructions [here](https://www.learnhowtoprogram.com/intermediate-javascript/getting-started-with-javascript/installing-node-js)_
 * _Navigate to the directory inside of which you wish to house this project_
-* _Clone this project with the following git command `$ git clone <https://github.com/jessicarubinwilliams/project>`_
-* _Navigate to the top level of the repository with the command `$ cd project`_
+* _Clone this project with the following git command `$ git clone <https://github.com/jessicarubinwilliams/super-galactic-age-calculator>`_
+* _Navigate to the top level of the repository with the command `$ cd super-galactic-age-calculator`_
 * _Recreate project environment and install required dependencies with terminal command `$ npm install`_
 * _Create production environment with terminal command `$ npm run build`_
 * _Open project in a development server in the browser of your choice with the command `$ npm run start`_
