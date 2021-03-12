@@ -38,6 +38,10 @@ describe('Age', () => {
   test('should calculate years left to live on Mercury', () => {
     expect(reusableAge.getMercuryYearsRemaining()).toEqual("17.84");
   });
+
+  test('should calculate years left to live on Venus', () => {
+    expect(reusableAge.getVenusYearsRemaining()).toEqual("46.08");
+  });
 });
 
 
