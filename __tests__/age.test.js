@@ -30,6 +30,10 @@ describe('Age', () => {
   test('should calculate age on Jupiter', () => {
     expect(reusableAge.getJupiterAge().toFixed(2)).toEqual((reusableAge.getEarthAge() * 11.86).toFixed(2));
   });
+
+  test('should calculate years left to live on Earth', () => {
+    expect(reusableAge.getEarthYearsRemaining()).toEqual("74.32");
+  });
 });
 
 

@@ -36,4 +36,8 @@ export default class Age {
   getJupiterAge() {
     return this.getEarthAge() * 11.86;
   }
-};
+
+  getEarthYearsRemaining() {
+    
+  }
+}
