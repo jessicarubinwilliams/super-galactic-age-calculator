@@ -56,8 +56,8 @@ getMercuryAge
 getVenusAge
 getMarsAge
 getJupiterAge
-getEarthLifeExpectancy
-getMercuryLifeExpectancy
-getVenusLifeExpectancy
-getMarsLifeExpectancy
-getJupiterLifeExpectancy
+getEarthYearsRemaining
+getMercuryYearsRemaining
+getVenusYearsRemaining
+getMarsYearsRemaining
+getJupiterYearsRemaining
