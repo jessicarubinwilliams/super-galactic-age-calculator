@@ -8,7 +8,7 @@ export default class Age {
     this.interconnectedness = parseInt(interconnectedness);
     this.joyCultivation = parseInt(joyCultivation);
     this.kindness = parseInt(kindness);
-    this.openHeartedness = parseInt(openHeartedness);
+    this.openheartedness = parseInt(openheartedness);
     this.personalGrowth = parseInt(personalGrowth);
     this.respect = parseInt(respect);
     this.selfCare = parseInt(selfCare);
