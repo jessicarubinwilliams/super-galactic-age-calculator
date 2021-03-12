@@ -49,4 +49,8 @@ export default class Age {
     });
     return (lifeExpectancy-this.getEarthAge()).toFixed(2);
   }
+
+  getMercuryYearsRemaining() {
+    
+  }
 }
