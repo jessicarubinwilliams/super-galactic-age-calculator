@@ -63,6 +63,6 @@ export default class Age {
   }
 
   getJupiterYearsRemaining() {
-    
+    return (this.getEarthYearsRemaining() * 11.86).toFixed(2);
   }
 }
