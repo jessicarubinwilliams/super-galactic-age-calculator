@@ -1,17 +1,490 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
-  <title>Super Galactic Age Calculator</title>
+<title>Super Galactic Age Calculator</title>
 </head>
-
 <body>
   <div class="container">
     <div class="jumbotron">
       <div id="background"></div>
       <h1 class="text-center big-bottom-margin">Welcome Earthling!</h1>
-      <h1 class="text-center big-top-margin">Learn your age and life expectancy throughout the Solar System</h1>
+      <h1 class="text-center big-top-margin">Learn your age and estimated life expectancy throughout the Solar System
+      </h1>
     </div>
+    <form id="user-input" class="form-group transparent-box">
+      <h4 class="text-center mb-3">The future is unknowable but leading a thoughtful life can help the years you spend in the multiverse feel satisfying and contribute to longevity.</h4>
+      <p>As the length of a solar year varies from planet to planet, your age and life expectancy are relative from planet to planet. Enter your date of birth on Earth and answer a few questions regarding factors for determining life expectancy to learn your age and estimated years left to live throughout the Solar System.</p>
+      <div class="form-group">
+        <label for="dob">Your date of birth on Earth</label>
+        <input type="text" class="form-control" id="dob">
+      </div>
+      <h4 class="text-center">Scale: 0 (Not at all) --- 10 (Fully)</h4>
+      <p>Rate your efforts to advocate in ways big and small to create a world inline with your values.</p>
+      <div class="radio-inline">
+        <label>
+          <input type="radio" name="advocacy" value="0"> 0
+        </label>
+        <label>
+          <input type="radio" name="advocacy" value="1"> 1
+        </label>
+        <label>
+          <input type="radio" name="advocacy" value="2"> 2
+        </label>
+        <label>
+          <input type="radio" name="advocacy" value="3"> 3
+        </label>
+        <label>
+          <input type="radio" name="advocacy" value="4"> 4
+        </label>
+        <label>
+          <input type="radio" name="advocacy" value="5"> 5
+        </label>
+        <label>
+          <input type="radio" name="advocacy" value="6"> 6
+        </label>
+        <label>
+          <input type="radio" name="advocacy" value="7"> 7
+        </label>
+        <label>
+          <input type="radio" name="advocacy" value="8"> 8
+        </label>
+        <label>
+          <input type="radio" name="advocacy" value="9"> 9
+        </label>
+        <label>
+          <input type="radio" name="advocacy" value="10"> 10
+        </label>
+      </div>
+      <p>Rate your efforts big and small to to be an ally.</p>
+      <div class="radio-inline">
+        <label>
+          <input type="radio" name="allyship" value="0"> 0
+        </label>
+        <label>
+          <input type="radio" name="allyship" value="1"> 1
+        </label>
+        <label>
+          <input type="radio" name="allyship" value="2"> 2
+        </label>
+        <label>
+          <input type="radio" name="allyship" value="3"> 3
+        </label>
+        <label>
+          <input type="radio" name="allyship" value="4"> 4
+        </label>
+        <label>
+          <input type="radio" name="allyship" value="5"> 5
+        </label>
+        <label>
+          <input type="radio" name="allyship" value="6"> 6
+        </label>
+        <label>
+          <input type="radio" name="allyship" value="7"> 7
+        </label>
+        <label>
+          <input type="radio" name="allyship" value="8"> 8
+        </label>
+        <label>
+          <input type="radio" name="allyship" value="9"> 9
+        </label>
+        <label>
+          <input type="radio" name="allyship" value="10"> 10
+        </label>
+      </div>
+      <p>Rate your contributions big and small to the quality of life and empowerment of others of all species.</p>
+      <div class="radio-inline">
+        <label>
+          <input type="radio" name="contributions" value="0"> 0
+        </label>
+        <label>
+          <input type="radio" name="contributions" value="1"> 1
+        </label>
+        <label>
+          <input type="radio" name="contributions" value="2"> 2
+        </label>
+        <label>
+          <input type="radio" name="contributions" value="3"> 3
+        </label>
+        <label>
+          <input type="radio" name="contributions" value="4"> 4
+        </label>
+        <label>
+          <input type="radio" name="contributions" value="5"> 5
+        </label>
+        <label>
+          <input type="radio" name="contributions" value="6"> 6
+        </label>
+        <label>
+          <input type="radio" name="contributions" value="7"> 7
+        </label>
+        <label>
+          <input type="radio" name="contributions" value="8"> 8
+        </label>
+        <label>
+          <input type="radio" name="contributions" value="9"> 9
+        </label>
+        <label>
+          <input type="radio" name="contributions" value="10"> 10
+        </label>
+      </div>
+      <p>Rate your awareness, appreciation, and cultivation of interconnectedness with people and your planet.</p>
+      <div class="radio-inline">
+        <label>
+          <input type="radio" name="interconnectedness" value="0"> 0
+        </label>
+        <label>
+          <input type="radio" name="interconnectedness" value="1"> 1
+        </label>
+        <label>
+          <input type="radio" name="interconnectedness" value="2"> 2
+        </label>
+        <label>
+          <input type="radio" name="interconnectedness" value="3"> 3
+        </label>
+        <label>
+          <input type="radio" name="interconnectedness" value="4"> 4
+        </label>
+        <label>
+          <input type="radio" name="interconnectedness" value="5"> 5
+        </label>
+        <label>
+          <input type="radio" name="interconnectedness" value="6"> 6
+        </label>
+        <label>
+          <input type="radio" name="interconnectedness" value="7"> 7
+        </label>
+        <label>
+          <input type="radio" name="interconnectedness" value="8"> 8
+        </label>
+        <label>
+          <input type="radio" name="interconnectedness" value="9"> 9
+        </label>
+        <label>
+          <input type="radio" name="interconnectedness" value="10"> 10
+        </label>
+      </div>
+      <p>Rate your effort to cultivate joy in yourself and others.</p>
+      <div class="radio-inline">
+        <label>
+          <input type="radio" name="joyCultivation" value="0"> 0
+        </label>
+        <label>
+          <input type="radio" name="joyCultivation" value="1"> 1
+        </label>
+        <label>
+          <input type="radio" name="joyCultivation" value="2"> 2
+        </label>
+        <label>
+          <input type="radio" name="joyCultivation" value="3"> 3
+        </label>
+        <label>
+          <input type="radio" name="joyCultivation" value="4"> 4
+        </label>
+        <label>
+          <input type="radio" name="joyCultivation" value="5"> 5
+        </label>
+        <label>
+          <input type="radio" name="joyCultivation" value="6"> 6
+        </label>
+        <label>
+          <input type="radio" name="joyCultivation" value="7"> 7
+        </label>
+        <label>
+          <input type="radio" name="joyCultivation" value="8"> 8
+        </label>
+        <label>
+          <input type="radio" name="joyCultivation" value="9"> 9
+        </label>
+        <label>
+          <input type="radio" name="joyCultivation" value="10"> 10
+        </label>
+      </div>
+      <p>Rate your kindness towards yourself and others of all species.</p>
+      <div class="radio-inline">
+        <label>
+          <input type="radio" name="kindness" value="0"> 0
+        </label>
+        <label>
+          <input type="radio" name="kindness" value="1"> 1
+        </label>
+        <label>
+          <input type="radio" name="kindness" value="2"> 2
+        </label>
+        <label>
+          <input type="radio" name="kindness" value="3"> 3
+        </label>
+        <label>
+          <input type="radio" name="kindness" value="4"> 4
+        </label>
+        <label>
+          <input type="radio" name="kindness" value="5"> 5
+        </label>
+        <label>
+          <input type="radio" name="kindness" value="6"> 6
+        </label>
+        <label>
+          <input type="radio" name="kindness" value="7"> 7
+        </label>
+        <label>
+          <input type="radio" name="kindness" value="8"> 8
+        </label>
+        <label>
+          <input type="radio" name="kindness" value="9"> 9
+        </label>
+        <label>
+          <input type="radio" name="kindness" value="10"> 10
+        </label>
+      </div>
+      <p>Rate your openheartedness.</p>
+      <div class="radio-inline">
+        <label>
+          <input type="radio" name="openheartedness" value="0"> 0
+        </label>
+        <label>
+          <input type="radio" name="openheartedness" value="1"> 1
+        </label>
+        <label>
+          <input type="radio" name="openheartedness" value="2"> 2
+        </label>
+        <label>
+          <input type="radio" name="openheartedness" value="3"> 3
+        </label>
+        <label>
+          <input type="radio" name="openheartedness" value="4"> 4
+        </label>
+        <label>
+          <input type="radio" name="openheartedness" value="5"> 5
+        </label>
+        <label>
+          <input type="radio" name="openheartedness" value="6"> 6
+        </label>
+        <label>
+          <input type="radio" name="openheartedness" value="7"> 7
+        </label>
+        <label>
+          <input type="radio" name="openheartedness" value="8"> 8
+        </label>
+        <label>
+          <input type="radio" name="openheartedness" value="9"> 9
+        </label>
+        <label>
+          <input type="radio" name="openheartedness" value="10"> 10
+        </label>
+      </div>
+      <p>Rate your commitment to nurturing personal growth.</p>
+      <div class="radio-inline">
+        <label>
+          <input type="radio" name="personalGrowth" value="0"> 0
+        </label>
+        <label>
+          <input type="radio" name="personalGrowth" value="1"> 1
+        </label>
+        <label>
+          <input type="radio" name="personalGrowth" value="2"> 2
+        </label>
+        <label>
+          <input type="radio" name="personalGrowth" value="3"> 3
+        </label>
+        <label>
+          <input type="radio" name="personalGrowth" value="4"> 4
+        </label>
+        <label>
+          <input type="radio" name="personalGrowth" value="5"> 5
+        </label>
+        <label>
+          <input type="radio" name="personalGrowth" value="6"> 6
+        </label>
+        <label>
+          <input type="radio" name="personalGrowth" value="7"> 7
+        </label>
+        <label>
+          <input type="radio" name="personalGrowth" value="8"> 8
+        </label>
+        <label>
+          <input type="radio" name="personalGrowth" value="9"> 9
+        </label>
+        <label>
+          <input type="radio" name="personalGrowth" value="10"> 10
+        </label>
+        <p>Rate your respect for yourself and others of all species.</p>
+        <div class="radio-inline">
+          <label>
+            <input type="radio" name="respect" value="0"> 0
+          </label>
+          <label>
+            <input type="radio" name="respect" value="1"> 1
+          </label>
+          <label>
+            <input type="radio" name="respect" value="2"> 2
+          </label>
+          <label>
+            <input type="radio" name="respect" value="3"> 3
+          </label>
+          <label>
+            <input type="radio" name="respect" value="4"> 4
+          </label>
+          <label>
+            <input type="radio" name="respect" value="5"> 5
+          </label>
+          <label>
+            <input type="radio" name="respect" value="6"> 6
+          </label>
+          <label>
+            <input type="radio" name="respect" value="7"> 7
+          </label>
+          <label>
+            <input type="radio" name="respect" value="8"> 8
+          </label>
+          <label>
+            <input type="radio" name="respect" value="9"> 9
+          </label>
+          <label>
+            <input type="radio" name="respect" value="10"> 10
+          </label>
+        </div>
+        <p>Rate your efforts to practice self-care.</p>
+        <div class="radio-inline">
+          <label>
+            <input type="radio" name="selfCare" value="0"> 0
+          </label>
+          <label>
+            <input type="radio" name="selfCare" value="1"> 1
+          </label>
+          <label>
+            <input type="radio" name="selfCare" value="2"> 2
+          </label>
+          <label>
+            <input type="radio" name="selfCare" value="3"> 3
+          </label>
+          <label>
+            <input type="radio" name="selfCare" value="4"> 4
+          </label>
+          <label>
+            <input type="radio" name="selfCare" value="5"> 5
+          </label>
+          <label>
+            <input type="radio" name="selfCare" value="6"> 6
+          </label>
+          <label>
+            <input type="radio" name="selfCare" value="7"> 7
+          </label>
+          <label>
+            <input type="radio" name="selfCare" value="8"> 8
+          </label>
+          <label>
+            <input type="radio" name="selfCare" value="9"> 9
+          </label>
+          <label>
+            <input type="radio" name="selfCare" value="10"> 10
+          </label>
+        </div>
+        <p>Rate your efforts to engage in self-reflection.</p>
+        <div class="radio-inline">
+          <label>
+            <input type="radio" name="selfReflection" value="0"> 0
+          </label>
+          <label>
+            <input type="radio" name="selfReflection" value="1"> 1
+          </label>
+          <label>
+            <input type="radio" name="selfReflection" value="2"> 2
+          </label>
+          <label>
+            <input type="radio" name="selfReflection" value="3"> 3
+          </label>
+          <label>
+            <input type="radio" name="selfReflection" value="4"> 4
+          </label>
+          <label>
+            <input type="radio" name="selfReflection" value="5"> 5
+          </label>
+          <label>
+            <input type="radio" name="selfReflection" value="6"> 6
+          </label>
+          <label>
+            <input type="radio" name="selfReflection" value="7"> 7
+          </label>
+          <label>
+            <input type="radio" name="selfReflection" value="8"> 8
+          </label>
+          <label>
+            <input type="radio" name="selfReflection" value="9"> 9
+          </label>
+          <label>
+            <input type="radio" name="selfReflection" value="10"> 10
+          </label>
+        </div>
+        <p>Rate your practice of sharing.</p>
+        <div class="radio-inline">
+          <label>
+            <input type="radio" name="sharing" value="0"> 0
+          </label>
+          <label>
+            <input type="radio" name="sharing" value="1"> 1
+          </label>
+          <label>
+            <input type="radio" name="sharing" value="2"> 2
+          </label>
+          <label>
+            <input type="radio" name="sharing" value="3"> 3
+          </label>
+          <label>
+            <input type="radio" name="sharing" value="4"> 4
+          </label>
+          <label>
+            <input type="radio" name="sharing" value="5"> 5
+          </label>
+          <label>
+            <input type="radio" name="sharing" value="6"> 6
+          </label>
+          <label>
+            <input type="radio" name="sharing" value="7"> 7
+          </label>
+          <label>
+            <input type="radio" name="sharing" value="8"> 8
+          </label>
+          <label>
+            <input type="radio" name="sharing" value="9"> 9
+          </label>
+          <label>
+            <input type="radio" name="sharing" value="10"> 10
+          </label>
+        </div>
+        <p>Rate your efforts to live a life that is a representation of your values in action.</p>
+        <div class="radio-inline">
+          <label>
+            <input type="radio" name="valuesInAction" value="0"> 0
+          </label>
+          <label>
+            <input type="radio" name="valuesInAction" value="1"> 1
+          </label>
+          <label>
+            <input type="radio" name="valuesInAction" value="2"> 2
+          </label>
+          <label>
+            <input type="radio" name="valuesInAction" value="3"> 3
+          </label>
+          <label>
+            <input type="radio" name="valuesInAction" value="4"> 4
+          </label>
+          <label>
+            <input type="radio" name="valuesInAction" value="5"> 5
+          </label>
+          <label>
+            <input type="radio" name="valuesInAction" value="6"> 6
+          </label>
+          <label>
+            <input type="radio" name="valuesInAction" value="7"> 7
+          </label>
+          <label>
+            <input type="radio" name="valuesInAction" value="9"> 9
+          </label>
+          <label>
+            <input type="radio" name="valuesInAction" value="10"> 10
+          </label>
+        </div>
+        <button type="submit" class="btn mt-3 mb-5">Submit</button>
+    </form>
   </div>
 </body>
 
