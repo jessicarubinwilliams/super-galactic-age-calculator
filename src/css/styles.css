@@ -15,16 +15,6 @@ body {
   color: blanchedalmond;
 }
 
-.transparent-box {
-  margin: 30px;
-  background-color: #ffffff;
-  border: 1px solid black;
-  opacity: 0.5;
-  padding: 5%;
-  font-weight: bold;
-  color: #000000;
-}
-
 .jumbotron {
   background-image: url("./../../assets/images/solar-system.jpg");
   background-size: cover;
@@ -35,4 +25,19 @@ body {
   font-weight: bolder;
   -webkit-text-stroke-color: blanchedalmond;
   -webkit-text-stroke-width: 0.45px;
+}
+
+#output {
+  display: none;
+  
+}
+
+.transparent-box {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.5;
+  padding: 5%;
+  font-weight: bold;
+  color: #000000;
 }
