@@ -51,6 +51,6 @@ export default class Age {
   }
 
   getMercuryYearsRemaining() {
-    
+    return (this.getEarthYearsRemaining() * .24).toFixed(2);
   }
 }
