@@ -46,6 +46,10 @@ describe('Age', () => {
   test('should calculate years left to live on Mars', () => {
     expect(reusableAge.getMarsYearsRemaining()).toEqual("139.72");
   });
+
+  test('should calculate years left to live on Jupiter', () => {
+    expect(reusableAge.getJupiterYearsRemaining()).toEqual("881.44");
+  });
 });
 
 
