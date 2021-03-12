@@ -10,6 +10,21 @@ body {
   background-image: url("./../../assets/images/universe.jpg");
 }
 
+.btn {
+  background-color: rgb(79, 7, 247);
+  color: blanchedalmond;
+}
+
+.transparent-box {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.5;
+  padding: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
 .jumbotron {
   background-image: url("./../../assets/images/solar-system.jpg");
   background-size: cover;
