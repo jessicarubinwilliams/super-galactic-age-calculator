@@ -38,6 +38,15 @@ export default class Age {
   }
 
   getEarthYearsRemaining() {
-    
+    let lifeExpectancy = 0;
+    const ageValues = Object.values(this);
+    ageValues.forEach((value) => {
+      if (typeof value === "object") {
+        lifeExpectancy += 0;
+      } else {
+        lifeExpectancy += value * .7;
+      }
+    });
+    return (lifeExpectancy-this.getEarthAge()).toFixed(2);
   }
 }
