@@ -1,0 +1,23 @@
+.big-bottom-margin {
+  margin-bottom: 200px;
+}
+
+.big-top-margin {
+  margin-top: 200px;
+}
+
+body {
+  background-image: url("./../../assets/images/universe.jpg");
+}
+
+.jumbotron {
+  background-image: url("./../../assets/images/solar-system.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: rgb(79, 7, 247);
+  font-family: Georgia;
+  font-weight: bolder;
+  -webkit-text-stroke-color: blanchedalmond;
+  -webkit-text-stroke-width: 0.45px;
+}
