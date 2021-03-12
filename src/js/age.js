@@ -59,6 +59,6 @@ export default class Age {
   }
 
   getMarsYearsRemaining() {
-    
+    return (this.getEarthYearsRemaining() * 1.88).toFixed(2);
   }
 }
