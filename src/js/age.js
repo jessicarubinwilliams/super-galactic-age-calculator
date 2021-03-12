@@ -1,5 +1,5 @@
 export default class Age {
-  constructor(dob, advocacy, allyship, contributions, inquisitiveness, interconnectedness, joyCultivation, kindness, openHeartedness, personalGrowth, respect, selfCare, selfReflection, sharing, valuesInAction) {
+  constructor(dob, advocacy, allyship, contributions, inquisitiveness, interconnectedness, joyCultivation, kindness, openheartedness, personalGrowth, respect, selfCare, selfReflection, sharing, valuesInAction) {
     this.dob = new Date(dob);
     this.advocacy = parseInt(advocacy);
     this.allyship = parseInt(allyship);
