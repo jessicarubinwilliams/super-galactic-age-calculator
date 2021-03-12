@@ -57,4 +57,8 @@ export default class Age {
   getVenusYearsRemaining() {
     return (this.getEarthYearsRemaining() * .62).toFixed(2);
   }
+
+  getMarsYearsRemaining() {
+    
+  }
 }
