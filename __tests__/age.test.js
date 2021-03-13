@@ -32,23 +32,23 @@ describe('Age', () => {
   });
 
   test('should calculate years left to live on Earth', () => {
-    expect(reusableAge.getEarthYearsRemaining()).toEqual("74.32");
+    expect(reusableAge.getEarthYearsRemaining()).toEqual("74.3");
   });
 
   test('should calculate years left to live on Mercury', () => {
-    expect(reusableAge.getMercuryYearsRemaining()).toEqual("17.84");
+    expect(reusableAge.getMercuryYearsRemaining()).toEqual("17.8");
   });
 
   test('should calculate years left to live on Venus', () => {
-    expect(reusableAge.getVenusYearsRemaining()).toEqual("46.08");
+    expect(reusableAge.getVenusYearsRemaining()).toEqual("46.1");
   });
 
   test('should calculate years left to live on Mars', () => {
-    expect(reusableAge.getMarsYearsRemaining()).toEqual("139.72");
+    expect(reusableAge.getMarsYearsRemaining()).toEqual("139.7");
   });
 
   test('should calculate years left to live on Jupiter', () => {
-    expect(reusableAge.getJupiterYearsRemaining()).toEqual("881.44");
+    expect(reusableAge.getJupiterYearsRemaining()).toEqual("881.2");
   });
 });
 

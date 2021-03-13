@@ -47,22 +47,22 @@ export default class Age {
         lifeExpectancy += value * .7;
       }
     });
-    return (lifeExpectancy-this.getEarthAge()).toFixed(2);
+    return (lifeExpectancy-this.getEarthAge()).toFixed(1);
   }
 
   getMercuryYearsRemaining() {
-    return (this.getEarthYearsRemaining() * .24).toFixed(2);
+    return (this.getEarthYearsRemaining() * .24).toFixed(1);
   }
 
   getVenusYearsRemaining() {
-    return (this.getEarthYearsRemaining() * .62).toFixed(2);
+    return (this.getEarthYearsRemaining() * .62).toFixed(1);
   }
 
   getMarsYearsRemaining() {
-    return (this.getEarthYearsRemaining() * 1.88).toFixed(2);
+    return (this.getEarthYearsRemaining() * 1.88).toFixed(1);
   }
 
   getJupiterYearsRemaining() {
-    return (this.getEarthYearsRemaining() * 11.86).toFixed(2);
+    return (this.getEarthYearsRemaining() * 11.86).toFixed(1);
   }
 }
