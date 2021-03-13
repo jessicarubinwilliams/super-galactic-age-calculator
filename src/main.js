@@ -70,3 +70,8 @@ $("form#user-input").submit(function(event) {
   $("div#output").show();
   $("form#user-input").hide();
 });
+
+$("form#start-over").submit(function(event) {
+  event.preventDefault();
+  location.reload(true);
+})
