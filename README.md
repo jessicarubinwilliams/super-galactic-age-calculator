@@ -1,6 +1,6 @@
 # _Super Galactic Age Calculator_
 
-#### _A web-based application to calculate a user's age in Mercury, Venus, Mars, and Jupiter years based on their Earth date of birth._
+#### _A web-based application to calculate a user's age and life expectancy on Earth, Mercury, Venus, Mars, and Jupiter._
 
 #### _By **Jessica R. Williams**_
 
@@ -46,7 +46,26 @@
 
 ## Description <a id="description"></a>
 
-_This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have. Balance between a summary of the project and a tame market pitch._
+_This is an independent project for the Test Driven Development section of (Epicodus)[https://www.epicodus.com/]'s (Intermediate JavaScript course)[https://www.learnhowtoprogram.com/intermediate-javascript-part-time-c-and-react-track]._
+
+_The Project Prompt: Write an application that determines a user's age based on a planet's solar years._
+_The business logic of your application should:_
+_Take a person's age in years and create a class that does the following:_
+
+* _Returns their age in Mercury years. (A Mercury year is .24 Earth years.)_
+* _Returns their age in Venus years. (A Venus year is .62 Earth years.)_
+* _Returns their age in Mars years. (A Mars year is 1.88 Earth years.)_
+* _Returns their age in Jupiter years. (A Jupiter year is 11.86 Earth years.)_
+* _Determines how many years a user has left to live on each planet._
+* _If a user has already surpassed the average life expectancy, return the number of years they have lived past the life expectancy._
+
+_The Project Objectives:_
+* _Business logic has 100% line coverage with Jest._
+* _Each spec was committed before writing its corresponding code._
+* _Project utilizes ES6 features including classes and template literals._
+* _Dependencies are managed with npm._
+* _webpack is used to lint, bundle, and process code._
+* _Project is in a polished, portfolio-quality state._
 
 ## Setup/Installation Requirements <a id="setup"></a>
 
@@ -70,10 +89,19 @@ _This environment was created on a Mac. For it to work properly in your local en
 
 | Behavior | Input | Output |
 |:---:|:---:|:---:|
-| The program should handle... | When it receives... | It should return... |
+| Return users age on Earth | July 12, 1997 | 23.7 |
+| Return users age on Mercury | July 12, 1997 | 5.7 |
+| Return users age on Venus | July 12, 1997 | 14.7 |
+| Return users age on Mars | July 12, 1997 | 44.5 |
+| Return users age on Jupiter | July 12, 1997 | 280.9 |
+| Return remaining years on Earth | 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 | 74.3 |
+| Return remaining years on Mercury | 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 | 17.8 |
+| Return remaining years on Venus | 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 | 46.1 |
+| Return remaining years on Mars | 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 | 139.7 |
+| Return remaining years on Jupiter | 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 | 881.2 |
 
 ## Known Bugs <a id="bugs"></a>
-* _Any known issues_
+* _There is no form validation for empty selections or non-date entries_
 * _should go here_
 
 ## License <a id="license"></a>
