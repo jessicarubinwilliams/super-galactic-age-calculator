@@ -84,11 +84,11 @@ _This environment was created on a Mac. For it to work properly in your local en
 
 | Behavior | Input | Output |
 |:---:|:---:|:---:|
-| Return users age on Earth | July 12, 1997 | 23.7 |
-| Return users age on Mercury | July 12, 1997 | 5.7 |
-| Return users age on Venus | July 12, 1997 | 14.7 |
-| Return users age on Mars | July 12, 1997 | 44.5 |
-| Return users age on Jupiter | July 12, 1997 | 280.9 |
+| Return age on Earth | July 12, 1997 | 23.7 |
+| Return age on Mercury | July 12, 1997 | 5.7 |
+| Return age on Venus | July 12, 1997 | 14.7 |
+| Return age on Mars | July 12, 1997 | 44.5 |
+| Return age on Jupiter | July 12, 1997 | 280.9 |
 | Return remaining years on Earth | 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 | 74.3 |
 | Return remaining years on Mercury | 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 | 17.8 |
 | Return remaining years on Venus | 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 | 46.1 |
