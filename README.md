@@ -96,7 +96,6 @@ _This environment was created on a Mac. For it to work properly in your local en
 
 ## Known Bugs <a id="bugs"></a>
 * _There is no form validation for empty selections or non-date entries_
-* _should go here_
 
 ## License <a id="license"></a>
 *[MIT](https://choosealicense.com/licenses/mit/)*
