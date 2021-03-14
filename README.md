@@ -41,8 +41,7 @@
 
 ## Description <a id="description"></a>
 
-_This is an independent project for the Test Driven Development section of (Epicodus)[https://www.epicodus.com/]'s (Intermediate JavaScript course)[https://www.learnhowtoprogram.com/intermediate-javascript-part-time-c-and-react-track]._
-
+_This is an independent project for the Test Driven Development section of [Epicodus](https://www.epicodus.com)'s [Intermediate JavaScript course](https://www.learnhowtoprogram.com/intermediate-javascript-part-time-c-and-react-track])
 _The Project Prompt: Write an application that determines a user's age based on a planet's solar years._
 _The business logic of your application should:_
 _Take a person's age in years and create a class that does the following:_
