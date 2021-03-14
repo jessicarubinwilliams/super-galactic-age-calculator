@@ -74,4 +74,4 @@ $("form#user-input").submit(function(event) {
 $("form#start-over").submit(function(event) {
   event.preventDefault();
   location.reload(true);
-})
+});
