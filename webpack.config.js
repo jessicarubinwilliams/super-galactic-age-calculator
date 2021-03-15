@@ -6,7 +6,8 @@ module.exports = {
   entry: './src/main.js',
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'dist'),
+    publicPath: "/super-galactic-age-calculator/"
   },
   devtool: 'eval-source-map',
   devServer: {               
