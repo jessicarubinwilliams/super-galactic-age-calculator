@@ -17,31 +17,31 @@ const displayOutput = (age) => {
     htmlForOutputDiv += `<li>You have an estimated ${age.getEarthYearsRemaining()} years remaining on Earth</li>`;
   } 
   else if (Math.sign(age.getEarthYearsRemaining()) === -1) {
-    htmlForOutputDiv += `<li>Proving how unknowable the future is, you have lived ${Math.abs(age.getEarthYearsRemaining())} years past your life expectancy on Earth</li>`;
+    htmlForOutputDiv += `<li>Proving how unknowable the future is, you have lived ${Math.abs(age.getEarthYearsRemaining().toFixed(1))} years past your life expectancy on Earth</li>`;
   } else if (Math.sign(age.getEarthYearsRemaining()) === 0) {
     htmlForOutputDiv += `<li>Don't read too much into this, but you have lived your exact life expectancy on Earth.</li>`;
   } if (Math.sign(age.getMercuryYearsRemaining()) === 1) {
-    htmlForOutputDiv += `<li>You have an estimated ${age.getMercuryYearsRemaining()} years remaining on Mercury</li>`;
+    htmlForOutputDiv += `<li>You have an estimated ${age.getMercuryYearsRemaining().toFixed(1)} years remaining on Mercury</li>`;
   } else if (Math.sign(age.getMercuryYearsRemaining()) === -1) {
-    htmlForOutputDiv += `<li>Proving how unknowable the future is, you have lived ${Math.abs(age.getMercuryYearsRemaining())} years past your life expectancy on Mercury</li>`;
+    htmlForOutputDiv += `<li>Proving how unknowable the future is, you have lived ${Math.abs(age.getMercuryYearsRemaining().toFixed(1))} years past your life expectancy on Mercury</li>`;
   } else if (Math.sign(age.getMercuryYearsRemaining()) === 0) {
     htmlForOutputDiv += `<li>Don't read too much into this, but you have lived your exact life expectancy on Mercury.</li>`;
   } if (Math.sign(age.getVenusYearsRemaining()) === 1) {
-    htmlForOutputDiv += `<li>You have an estimated ${age.getVenusYearsRemaining()} years remaining on Venus</li>`;
+    htmlForOutputDiv += `<li>You have an estimated ${age.getVenusYearsRemaining().toFixed(1)} years remaining on Venus</li>`;
   } else if (Math.sign(age.getVenusYearsRemaining()) === -1) {
-    htmlForOutputDiv += `<li>Proving how unknowable the future is, you have lived ${Math.abs(age.getVenusYearsRemaining())} years past your life expectancy on Venus</li>`;
+    htmlForOutputDiv += `<li>Proving how unknowable the future is, you have lived ${Math.abs(age.getVenusYearsRemaining().toFixed(1))} years past your life expectancy on Venus</li>`;
   } else if (Math.sign(age.getVenusYearsRemaining()) === 0) {
     htmlForOutputDiv += `<li>Don't read too much into this, but you have lived your exact life expectancy on Venus.</li>`;
   } if (Math.sign(age.getMarsYearsRemaining()) === 1) {
-    htmlForOutputDiv += `<li>You have an estimated ${age.getMarsYearsRemaining()} years remaining on Mars</li>`;
+    htmlForOutputDiv += `<li>You have an estimated ${age.getMarsYearsRemaining().toFixed(1)} years remaining on Mars</li>`;
   } else if (Math.sign(age.getMarsYearsRemaining()) === -1) {
-    htmlForOutputDiv += `<li>Proving how unknowable the future is, you have lived ${Math.abs(age.getMarsYearsRemaining())} years past your life expectancy on Mars</li>`;
+    htmlForOutputDiv += `<li>Proving how unknowable the future is, you have lived ${Math.abs(age.getMarsYearsRemaining().toFixed(1))} years past your life expectancy on Mars</li>`;
   } else if (Math.sign(age.getMarsYearsRemaining()) === 0) {
     htmlForOutputDiv += `<li>Don't read too much into this, but you have lived your exact life expectancy on Mars.</li>`;
   } if (Math.sign(age.getJupiterYearsRemaining()) === 1) {
-    htmlForOutputDiv += `<li>You have an estimated ${age.getJupiterYearsRemaining()} years remaining on Jupiter</li>`;
+    htmlForOutputDiv += `<li>You have an estimated ${age.getJupiterYearsRemaining().toFixed(1)} years remaining on Jupiter</li>`;
   } else if (Math.sign(age.getJupiterYearsRemaining()) === -1) {
-    htmlForOutputDiv += `<li>Proving how unknowable the future is, you have lived ${Math.abs(age.getJupiterYearsRemaining())} years past your life expectancy on Jupiter</li>`;
+    htmlForOutputDiv += `<li>Proving how unknowable the future is, you have lived ${Math.abs(age.getJupiterYearsRemaining().toFixed(1))} years past your life expectancy on Jupiter</li>`;
   } else if (Math.sign(age.getJupiterYearsRemaining()) === 0) {
     htmlForOutputDiv += `<li>Don't read too much into this, but you have lived your exact life expectancy on Jupiter.</li>`;
   }
