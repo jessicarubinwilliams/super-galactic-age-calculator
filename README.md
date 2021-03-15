@@ -6,14 +6,19 @@
 
 #### _Table of Contents_
 
-1. [Technologies Used](#technologies)
-2. [Description](#description)
-3. [Setup/Installation Requirements](#setup)
-4. [Additional Setup/Installation Note for Windows Users](#windows)
-5. [Specifications](#specs)
-6. [Known Bugs](#bugs)
-7. [License](#license)
-8. [Contact Information](#contact)
+1. [Preview](#preview)
+2. [Technologies Used](#technologies)
+3. [Description](#description)
+4. [Setup/Installation Requirements](#setup)
+5. [Additional Setup/Installation Note for Windows Users](#windows)
+6. [Specifications](#specs)
+7. [Known Bugs](#bugs)
+8. [License](#license)
+9. [Contact Information](#contact)
+
+## Preview <a id="preview"></a>
+
+* _Direct your browser to a [live version](https://jessicarubinwilliams.github.io/super-galactic-age-calculator/) on GitHub Pages._
 
 ## Technologies Used <a id="technologies"></a>
 
@@ -26,6 +31,7 @@
 * _eslint 6.3.0_
 * _eslint-loader 3.0.0_
 * _file-loader 1.1.6_
+* _gh-pages 3.1.0_
 * _HTML5_
 * _html-loader 0.5.5_
 * _html-webpack-plugin 3.2.0_
