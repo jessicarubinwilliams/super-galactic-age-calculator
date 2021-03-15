@@ -1,6 +1,16 @@
 import Age from './../src/js/age.js'
 
 describe('Age', () => {
+  const RealDate = Date.now
+
+  beforeAll(() => {
+    global.Date.now = jest.fn(() => new Date('2021-03-15T07:00:00.000Z').getTime())
+  })
+  
+  afterAll(() => {
+    global.Date.now = RealDate
+  })
+
   let reusableAge;
   
   beforeEach(() => {
@@ -12,43 +22,43 @@ describe('Age', () => {
   });
 
   test('should calculate age on Earth', () => {
-    expect(reusableAge.getEarthAge().toFixed(2)).toEqual(((Date.now()-reusableAge.dob)/3.154e+10).toFixed(2));
+    expect(reusableAge.getEarthAge()).toBeCloseTo(23.688842797336715);
   });
 
   test('should calculate age on Mercury', () => {
-    expect(reusableAge.getMercuryAge().toFixed(2)).toEqual((reusableAge.getEarthAge() * .24).toFixed(2));
+    expect(reusableAge.getMercuryAge()).toBeCloseTo(5.6853245335700695);
   });
 
   test('should calculate age on Venus', () => {
-    expect(reusableAge.getVenusAge().toFixed(2)).toEqual((reusableAge.getEarthAge() * .62).toFixed(2));
+    expect(reusableAge.getVenusAge()).toBeCloseTo(14.68708989833291);
   });
 
   test('should calculate age on Mars', () => {
-    expect(reusableAge.getMarsAge().toFixed(2)).toEqual((reusableAge.getEarthAge() * 1.88).toFixed(2));
+    expect(reusableAge.getMarsAge()).toBeCloseTo(44.5350491329499);
   });
 
   test('should calculate age on Jupiter', () => {
-    expect(reusableAge.getJupiterAge().toFixed(2)).toEqual((reusableAge.getEarthAge() * 11.86).toFixed(2));
+    expect(reusableAge.getJupiterAge()).toBeCloseTo(280.9498999992752, 1);
   });
 
   test('should calculate years left to live on Earth', () => {
-    expect(reusableAge.getEarthYearsRemaining()).toEqual("74.3");
+    expect(reusableAge.getEarthYearsRemaining()).toBeCloseTo(74.31111545887762);
   });
 
   test('should calculate years left to live on Mercury', () => {
-    expect(reusableAge.getMercuryYearsRemaining()).toEqual("17.8");
+    expect(reusableAge.getMercuryYearsRemaining()).toBeCloseTo(17.834667001255546);
   });
 
   test('should calculate years left to live on Venus', () => {
-    expect(reusableAge.getVenusYearsRemaining()).toEqual("46.1");
+    expect(reusableAge.getVenusYearsRemaining()).toBeCloseTo(46.07288928022321);
   });
 
   test('should calculate years left to live on Mars', () => {
-    expect(reusableAge.getMarsYearsRemaining()).toEqual("139.7");
+    expect(reusableAge.getMarsYearsRemaining()).toBeCloseTo(139.70487116256055);
   });
 
   test('should calculate years left to live on Jupiter', () => {
-    expect(reusableAge.getJupiterYearsRemaining()).toEqual("881.2");
+    expect(reusableAge.getJupiterYearsRemaining()).toBeCloseTo(881.3296577392942, 1);
   });
 });
 
